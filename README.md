@@ -5,13 +5,13 @@ This simple program allows you to store football match data taken from [understa
 The evaluation score is calculated as follows:
 
 ```math
-Eval = \sum_{shots} ( Effective goal per shot - xG per shot )
+Eval = \sum_{shots} ( Effective Goal Per Shot - xG per Shot )
 ```
 
 The normalized score is calculated as follows:
 
 ```math
-Sides = Shots on target \times 0.1 + Total shots \times 0.05 + \frac{1}{ppda}
+Sides = Shots On Target \times 0.1 + Total Shots \times 0.05 + \frac{1}{ppda}
 ```
 ```math
 Norm = \frac{Eval + Sides}{Total xG + Sides} \times 10
